@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+fieldset {
+  border: none;
+}
+fieldset > div {
+  border-radius: 5px;
+}
+legend {
+  font-size: 20px;
+  font-weight: 900;
+}
+.correct {
+  background-color: rgba(0, 128, 0, 0.7);
+  color: white;
+  font-weight: bolder;
+  
+}
+.incorrect {
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  font-weight: bolder;
+}
